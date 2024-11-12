@@ -19,9 +19,52 @@
     <!-- Custom CSS -->
      <link rel="stylesheet" href="assets/css/style.css">
 
-
   </head>
-  <body>
+
+    <!-- Classes on body are set to function with mt-auto on footer in order to ensure it stays at the bottom of page. -->
+
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/sweet-world-icon-3.png" alt="Sweet World logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Weddings & Anniversaries</a></li>
+                <li><a class="dropdown-item" href="#">Birthdays & Graduations</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Kids</a></li>
+                <li><a class="dropdown-item" href="#">Classics</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Click & Collect</a>
+            </li>
+          </ul>
+      
+        </div>
+      </div>
+    </nav>
+
+
     <h1>You have special events, we have the cakes!</h1>
     <p>I will have pictures and carausels and texts here, and it will look amazing.</p>
 </body>
