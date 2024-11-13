@@ -13,7 +13,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
 }
 .logo {
     width: 30px;
@@ -29,3 +29,9 @@ body {
 /* Weddings & Anniversaries */
 
 /* birthdays & graduations */
+
+/* Footer / contact */
+.footer {
+    background-color: var(--primary-color);
+    padding-bottom: 3rem;
+}
