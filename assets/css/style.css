@@ -1,10 +1,19 @@
+/* CSS variables */
+:root {
+    --primary-color: #F7B8DE; /* light pink */
+    --secondary-color: #BF608C; /* dark pink */
+    --highlight-color-light: #DC8DB6; /* regular pink */
+
+
+}
+
 body {
     background-color: white;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #F7B8DE;
+    background-color: var(--primary-color)
 }
 .logo {
     width: 30px;
