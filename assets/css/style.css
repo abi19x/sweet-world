@@ -112,6 +112,9 @@ h2 {
 .slide {
     background-image: url(../images/bgforMenu.webp);
 }
+.queen {
+    background-image: url(../images/letThemEatCake.gif);
+}
 
 /* Footer / contact */
 .footer {
