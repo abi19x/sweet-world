@@ -82,6 +82,10 @@ h2 {
     color: white;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
 /* Header */
 .fixed-height {
     height: 398px;
