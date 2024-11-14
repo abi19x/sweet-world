@@ -98,6 +98,7 @@ h2 {
     background-color: transparent;
 }
 
-.table-hover tbody tr:hover {
+      
+.table tbody tr:hover {
     background-color: var(--secondary-color);
 }
