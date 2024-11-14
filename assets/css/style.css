@@ -41,6 +41,29 @@ h2 {
     color: var(--highlight-color-light);
 }
 
+/* Buttons */
+.custom-button-outline {
+    color: var(--highlight-color-light);
+    border: 3px solid var(--secondary-color);
+    padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.custom-button-filled {
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color-light);
+    background-color: white;
+    color: var(--secondary-color);
+}
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
@@ -48,6 +71,15 @@ h2 {
 .logo {
     width: 35px;
     margin-left: 30px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 /* Header */
@@ -65,6 +97,13 @@ h2 {
 
 /* birthdays & graduations */
 
+#student {
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
 /* Footer / contact */
 .footer {
     background-color: var(--primary-color);
@@ -80,7 +119,7 @@ h2 {
 }
 
 .footer i {
-    color: chocolate;
+    color:  var(--secondary-color);
     font-size: 1.2rem;
     padding-right: 15px;
 }
@@ -100,5 +139,5 @@ h2 {
 
       
 .table tbody tr:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-color-light);
 }
