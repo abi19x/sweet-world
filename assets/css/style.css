@@ -109,6 +109,9 @@ h2 {
 }
 
 /*Our Menu Page */
+.slide {
+    background-image: url(../images/bgforMenu.webp);
+}
 
 /* Footer / contact */
 .footer {
