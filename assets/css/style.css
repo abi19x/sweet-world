@@ -1,5 +1,10 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
 /* CSS variables */
 :root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
     --primary-color: #F7B8DE; /* light pink */
     --secondary-color: #BF608C; /* dark pink */
     --highlight-color-light: #DC8DB6; /* regular pink */
@@ -7,8 +12,33 @@
 
 }
 
+/* Global styles */
 body {
     background-color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.section {
+    padding-top: 4rem; /* This will prevent navbar overlap */
+}
+
+.sub-heading-color {
+    color: var(--highlight-color-light);
 }
 
 /* Navbar */
@@ -16,13 +46,18 @@ body {
     background-color: var(--primary-color);
 }
 .logo {
-    width: 30px;
+    width: 35px;
+    margin-left: 30px;
 }
 
 /* Header */
 .fixed-height {
     height: 398px;
     width: 248px;
+}
+
+.header .lead {
+    font-family: var(--secondary-font)
 }
 
 /* Main */
@@ -34,4 +69,35 @@ body {
 .footer {
     background-color: var(--primary-color);
     padding-bottom: 3rem;
+}
+
+.footer h2 {
+    color: var(--highlight-color-light);
+}
+
+.footer .sub-heading-color {
+    color: var(--secondary-color);
+}
+
+.footer i {
+    color: chocolate;
+    font-size: 1.2rem;
+    padding-right: 15px;
+}
+
+.footer .social-links i {
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer .social-links i:hover {
+    color: white;
+}
+
+.footer .table * {
+    background-color: transparent;
+}
+
+.table-hover tbody tr:hover {
+    background-color: var(--secondary-color);
 }
