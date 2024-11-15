@@ -69,74 +69,19 @@
     </div>
   </nav>
 
-  <!-- Header -->
-<header id="header" class="container section">
-  <div class="row justify-content-center">
-      <div class="col-12 col-md-8 text-center text-xl-start">
-          <h1 class="display-3">Sweet World</h1>
-          <p class="my-4 lead display-6 sub-heading-color">
-              Some people say <strong>"It`s a Slice of Heaven!"</strong>
-            <br>
-          Do You Fancy to Try One?</p>
-              
-              <p>Please fill out the form below with your details and preferred cake. A
-              member of our team will be in touch as soon as possible to confirm
-              your booking and answer any questions you may have.</p>
-          
-      </div>
-  </div>
-</header>
-
-
-  <!-- The main element will hold all key sections of the booking page.  -->
-
-  <main>
-    <!-- Request inquiry form section -->
-    <section id="booking-form" class="container section">
+  <!-- The main element will hold all key sections of the message page.  -->
+    <!-- success message for users who successfully submit a form -->
+    <main id="success" class="container section text-center">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
-                <h2>Request inquiry</h2>
-                <form action="message.html" method="GET">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="fname" class="form-label">Full name</label>
-                            <input class="form-control" id="fname" name="fname" type="text" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input class="form-control" id="email" name="email" type="email" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="phone" class="form-label">Phone number</label>
-                            <input class="form-control" id="phone" name="phone" type="number" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="event-type" class="form-label">Cake type</label>
-                            <select id="event-type" class="form-select" name="event-type" required>
-                                <option value="" selected>Select</option>
-                                <option value="weddings-anniversaries">Weddings & Anniversaries</option>
-                                <option value="birthdays-graduations">Birthdays & Graduations</option>
-                                <option value="kids">Kids</option>
-                                <option value="classics">Classics</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="discount">Are you a student?</label> <br>
-                          <input type="radio" id="discount" name="discount" value="yes" required>Yes &nbsp;
-                          <input type="radio" id="discount" name="discount" value="yes">No
-                        </div>
-                        <div class="col-12 mb-3">
-                            <label for="message" class="form-label">Personalised message</label>
-                            <textarea class="form-control" rows="3" id="message" name="message" required></textarea>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
-                </form>
+                <h1 class="display-3">Thank you!</h1>
+                <p class="lead">Your form has been submitted successfully!</p>
+                <a href="index.html" class="btn custom-button-outline mb-4">Return to the home page</a>
             </div>
         </div>
-    </section>
-</main>
+    </main>
+
+
   
 
   <!-- Footer / contact section -->
