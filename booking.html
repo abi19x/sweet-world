@@ -69,10 +69,75 @@
     </div>
   </nav>
 
-  <!-- Header with carousel -->
+  <!-- Header -->
+    <!-- header section -->
+<header id="header" class="container section">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-xl-start">
+          <h1 class="display-3">Sweet World</h1>
+          <p class="my-4 lead display-6 sub-heading-color">
+              Some people say <strong>"It`s a Slice of Heaven!"</strong>
+            <br>
+          Do You Fancy to Try One?</p>
+              
+              <p>Please fill out the form below with your details and preferred cake. A
+              member of our team will be in touch as soon as possible to confirm
+              your booking and answer any questions you may have.</p>
+          
+      </div>
+  </div>
+</header>
 
 
   <!-- The main element will hold all key sections of the booking page.  -->
+
+  <main>
+    <!-- Request inquiry form section -->
+    <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h2>Request inquiry</h2>
+                <form action="#" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="fname" class="form-label">Full name</label>
+                            <input class="form-control" id="fname" name="fname" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Cake type</label>
+                            <select id="event-type" class="form-select" name="event-type" required>
+                                <option value="" selected>Select</option>
+                                <option value="weddings-anniversaries">Weddings & Anniversaries</option>
+                                <option value="birthdays-graduations">Birthdays & Graduations</option>
+                                <option value="kids">Kids</option>
+                                <option value="classics">Classics</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                          <label for="discount">Are you a student?</label>
+                          <input type="radio" id="discount" name="discount" value="yes"> <br>
+                          <input type="radio" id="discount" name="discount" value="yes">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Personalised message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
   
 
   <!-- Footer / contact section -->
