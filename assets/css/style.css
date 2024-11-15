@@ -97,7 +97,19 @@ h2 {
 }
 
 /* Main */
+.card {
+    line-height: 1.1rem;
+}
+.card-footer {
+    font-weight: bold;
+    color: white;
+    background-color: var(--highlight-color-light);
+}
 /* Weddings & Anniversaries */
+#weddings&anniversaries .card,
+#birthdays&graduations .card {
+    border: none;
+}
 
 /* birthdays & graduations */
 
@@ -114,6 +126,10 @@ h2 {
 }
 .queen {
     background-image: url(../images/letThemEatCake.gif);
+}
+#kids .card,
+#classics .card {
+    border: none;
 }
 
 /* Footer / contact */
@@ -152,4 +168,13 @@ h2 {
       
 .table tbody tr:hover {
     background-color: var(--highlight-color-light);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+    .card-body {
+        min-height: 191px;
+    }
+  
 }
