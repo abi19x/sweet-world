@@ -1,9 +1,7 @@
 # sweet-world 
 This is my first milestone project for the Level-5 Web Application Development program with New City College.<br>
-This is the webpage link of my project. ![website link](https://abi19x.github.io/sweet-world/)
+This is the webpage link of my project. <a href="https://abi19x.github.io/sweet-world/">Click here</a>.
 
-<h2>Will this work </h2>
-<img src="assets/wireframes/wireframe-01.jpg">
 
 
 **Purpose of Project** <br>
@@ -18,9 +16,9 @@ I have also used 'Inter' and 'Mocondo' to style my fonts which I have imported t
 
 
 **My hand sketch wireframes** <br>
-![Home page design](/workspace/sweet-world/assets/wireframes/wireframe-01.jpg)<br>
-![Booking page](/workspace/sweet-world/assets/wireframes/wireframe-03.jpg)<br>
-![The success / message page](/workspace/sweet-world/assets/wireframes/wireframe-04.jpg)<br>
+<img src="assets/wireframes/wireframe-01.jpg" width="300" alt="this is the home page sketch"><br>
+<img src="assets/wireframes/wireframe-03.jpg" width="300" alt="this is the booking page with the form inquiry"><br>
+<img src="assets/wireframes/wireframe-04.jpg" width="300" alt="this is the design of the success page"><br>
 
 **The final project**<br>
 ![Home page](/workspace/sweet-world/assets/finalProject-screenshots/final-project.png)<br>
