@@ -107,13 +107,7 @@ h2 {
     color: white;
     background-color: var(--highlight-color-light);
 }
-/* Weddings & Anniversaries */
-#weddings&anniversaries .card,
-#birthdays&graduations .card {
-    border: none;
-}
 
-/* birthdays & graduations */
 
 #student {
     background-color: var(--secondary-color);
