@@ -52,4 +52,25 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <li>Last but not least my gratitude will go to <a href="https://uk.pinterest.com/">Pintrest</a>, for providing and allowing me to download elegant pictures with high resolution which worked perfectly with the design and development of my project. The pictures I picked from Pintrest are used in the carousel slide shows in Our Menu page of this website.</li>
 </uL>
 
+### Testing <br>
+<ul>
+  <li>I have made sure there are no broken links.</li>
+  <li>I have double checked that all external links are open in a separate tab.</li>
+  <li>The site's navigation, layout and colour are consistent and rationale.</li>
+  <li>The customer is not able to break the site by providing unvalidated inputs. For instance in the phone number filed only numbers can be entered.</li>
+  <li>All forms handle eloquently empty or invalid input fields. See the screenshot below.</li>
+  <img src="assets/testing/testingForm.jpg" alt="screenshot of testing a form field" width="300">
+  <li>All page elements function and display well on all media screen sizes. I have double checked the responsiveness of all pages on mobile, tablet and desktop screen sizes.</li>
+  <li>All types of multimedia content used in this project function and look well on different popular browsers. I have checked the deployed on "Microsoft Edge" and "Google Chrome".</li>
+  <li>I have confirmed multiple times that all four pages are linked rightfully to the custom CSS file.</li>
+  <li>All HTML files in this project passes through the official validator with no issues. See the screenshot below.</li>
+  <img src="assets/testing/validatedHTML.jpg" alt="a screenshot of HTML validated test" width="300">
+  <li>I have used an "alt" attribute in all image elements throughout the project, which provides a brief description of all non text elements of having a text equivalent for the visually impaired users</li>
+  <li>An error was found when I tested the custom CSS file of this project in the official validator website. See the screenshot below.</li>
+  <img src="assets/testing/cssError.jpg" alt="a screenshot of an error being detected when the custom CSS file was tested" width="300">
+  <li> I have revisited the page, went to the indicated error detected above and fixed it to the best of my ability. I can now confirm that the custom CSS file in this project passes through the official (Jigsaw) validator with no issues. See the screenshot below.</li>
+  <img src="assets/testing/cssValidated.jpg" alt="a screenshot of CSS validated test" width="300">
+  <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
+</ul>
+
 
