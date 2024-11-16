@@ -1,6 +1,9 @@
-# sweet-world
+# sweet-world 
 This is my first milestone project for the Level-5 Web Application Development program with New City College.<br>
 This is the webpage link of my project. ![website link](https://abi19x.github.io/sweet-world/)
+
+<h2>Will this work </h2>
+<img src="assets/wireframes/wireframe-01.jpg">
 
 
 **Purpose of Project** <br>
