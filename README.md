@@ -1,6 +1,6 @@
 # sweet-world 
 This is my first milestone project for the Level-5 Web Application Development program with New City College.<br>
-This is the webpage link of my project. <a href="https://abi19x.github.io/sweet-world/">Click here</a>.
+This is the webpage link of my project. <a href="https://abi19x.github.io/sweet-world/" target="_blank">Click here</a>.
 
 
 
@@ -21,13 +21,24 @@ I have also used 'Inter' and 'Mocondo' to style my fonts which I have imported t
 <img src="assets/wireframes/wireframe-04.jpg" width="300" alt="this is the design of the success page"><br>
 
 **The final project**<br>
-![Home page](/workspace/sweet-world/assets/finalProject-screenshots/final-project.png)<br>
-![Our menu page](/workspace/sweet-world/assets/finalProject-screenshots/final-project-2.png)<br>
-![Booking page with the inquiry form](/workspace/sweet-world/assets/finalProject-screenshots/final-project-3.png)<br>
-![Success / message page](/workspace/sweet-world/assets/finalProject-screenshots/final-project-4.png)<br>
+<img src="assets/finalProject-screenshots/final-project.png" width="300" alt="this is the home page"><br>
+<img src="assets/finalProject-screenshots/final-project-2.png" width="300" alt="this is our menu page, kids section"><br>
+<img src="assets/finalProject-screenshots/final-project-3.png" width="300" alt="this is the booking page with the form to be submitted"><br>
+<img src="assets/finalProject-screenshots/final-project-4.png" width="300" alt="this is the message you receive after submitting the form successfully"><br>
 
 ## Deployment <br>
-*In the "Code and automation" section of the sidebar, click **Pages**. Under **"Build and deployment"**, under **"Source"**, select **Deploy from a branch**. Under "Build and deployment", under "Branch", use the branch dropdown menu and select a publishing source. Optionally, open the README.md file of your repository.
+The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
+<ol>
+  <li>Go to settings in your github repository</li>
+  <li>In the <strong>'code and automation'</strong> section, select <strong>'pages'</strong></li>
+  <li>Set <strong>'Source'</strong> to <strong>'Deploy from Branch/</strong></li>
+  <li>Select <strong>'main'</strong> from the branch section</li>
+  <li>Set <strong>Folder</strong> to <strong>'/(root)'</strong>, then click <strong>'Save'</strong></li>
+  <li>Go to the <strong>'Code'</strong> tab, wait few minutes and refresh</li>
+  <li>On the right hand side click <strong>'github pages'</strong></li>
+  <li>Click <strong>'View Deployment'</strong></li>
+  
+</ol>
 
 ### Credits <br>
 I must emphasize that I took all the pictures and contents of my project from a bakery website and would like to give all credits to this website as I got most of my ideas from them. ![Cake Box Website](https://www.cakebox.com/)<br>
