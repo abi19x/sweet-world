@@ -41,6 +41,15 @@ The deployment process is going to help you to set up an environment for your li
 </ol>
 
 ### Credits <br>
-I must emphasize that I took all the pictures and contents of my project from a bakery website and would like to give all credits to this website as I got most of my ideas from them. ![Cake Box Website](https://www.cakebox.com/)<br>
-*![digital marketing content AI generator](https://ahrefs.com/)
+<uL>
+  <li>
+I must emphasize that I took all the pictures and contents of my project from a bakery website and would like to give all credits to this website as I got most of my ideas from them. <a href="https://www.cakebox.com/">Cake Box Website</a><br>
+  </li>
+  <li>I have used <a href="https://designs.ai/logomaker/start/create?company_name=Sweet%2520World">AI designs</a>> to create a logo which is content and colour appropriate for this project</li>
+  <li>I have used <a href="https://favicon.io/">favcon</a>, in order to generate the small sized logo icon which I placed on the browser tab.</li>
+  <li>I also would like to give attributes to <a href="https://getbootstrap.com/">Bootstrap</a>, for aiding me to style my cards, containers and the whole page in general easily and gracefully.</li>
+  <li>Another helpful source to thank in my list is <a href="https://coolors.co/image-picker">Color picker</a>, which supported me to choose a colour palette that goes hand in hand with colourful theme I have chosen for this project. They also have a nice feature that allows you to export the group of colours you picked to your internal files.</li>
+  <li>Last but not least my gratitude will go to <a href="https://uk.pinterest.com/">Pintrest</a>, for providing and allowing me to download elegant pictures with high resolution which worked perfectly with the design and development of my project. The pictures I picked from Pintrest are used in the carousel slide shows in Our Menu page of this website.</li>
+</uL>
+
 
