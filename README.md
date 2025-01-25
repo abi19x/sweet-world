@@ -2,6 +2,16 @@
 This is my first milestone project for the Level-5 Web Application Development program with New City College.<br>
 This is the webpage link of my project. <a href="https://abi19x.github.io/sweet-world/" target="_blank">Click here</a>.
 
+<p> This website appears to compose complete pages, responsive webpage featuring a navigation bar, carousel, a video illustrating how cakes are created, sections for cakes categorized by occasion, a footer with contact info, and operating hours.</p>
+
+<ul>
+  <li>Header, main, section and footer element tags are properly used in order to improve readability and search engine optimisation (SEO). Aria-label attribute is also used to enhance accessibility</li>
+  <li>Bootstrap's grid system, such as col- and row are deliberately implemented as responsive classes to ensure the website adapts to different screen sizes.</li>
+  <li>In addition, the carousel and cards are used and clearly proven to be well-suited for showcasing images and all essential information that users need to know about the cakes in store.</li>
+  <li>The styling of the web pages consist consistent use of custom classes (e.g. <strong>.custom-button-outline</strong>) which adds unique branding and distinctive visually appealing feature. </li>
+  <li>The user engagement aspect was given much though in this project as clear and precise call-to-action (CTA) like the <strong>Click and Collect</strong> buttons encourage user interaction and prompt potential customers to place an order from our products. Furthermore, social media links are designed for casual users and potential customers to provide connectivity.</li>
+</ul>
+
 
 
 **Purpose of Project** <br>
