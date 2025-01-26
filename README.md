@@ -75,10 +75,10 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <li>All page elements function and display well on all media screen sizes. I have double checked the responsiveness of all pages on mobile, tablet and desktop screen sizes.</li>
   <li>All types of multimedia content used in this project function and look well on different popular browsers. I have checked the deployed on "Microsoft Edge" and "Google Chrome".</li>
   <li>I have confirmed multiple times that all four pages are linked rightfully to the custom CSS file.</li>
-  <li>All HTML files in this project passes through the official validator with no issues. See the screenshot below.</li>
+  <li>All HTML files in this project passes through the official W3C validator with no issues. I used this <a href="https://validator.w3.org/">Website</a> to test and validate all the codes written on HTML. See the screenshot below.</li>
   <img src="assets/testing/validatedHTML.jpg" alt="a screenshot of HTML validated test" width="300">
   <li>I have used an "alt" attribute in all image elements throughout the project, which provides a brief description of all non text elements of having a text equivalent for the visually impaired users</li>
-  <li>An error was found when I tested the custom CSS file of this project in the official validator website. See the screenshot below.</li>
+  <li>An error was found when I tested the custom CSS file of this project in the official W3 Jigsaw CSS validor. I used this <a href="https://jigsaw.w3.org/css-validator/">website</a> to test and validate all the codes writted on my custom CSS file. See the screenshot below.</li>
   <img src="assets/testing/cssError.jpg" alt="a screenshot of an error being detected when the custom CSS file was tested" width="300">
   <li> I have revisited the page, went to the indicated error detected above and fixed it to the best of my ability. I can now confirm that the custom CSS file in this project passes through the official (Jigsaw) validator with no issues. See the screenshot below.</li>
   <img src="assets/testing/cssValidated.jpg" alt="a screenshot of CSS validated test" width="300">
