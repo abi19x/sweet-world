@@ -35,6 +35,7 @@ I have also used 'Inter' and 'Mocondo' to style my fonts which I have imported t
 <img src="assets/finalProject-screenshots/final-project-2.png" width="300" alt="this is our menu page, kids section"><br>
 <img src="assets/finalProject-screenshots/final-project-3.png" width="300" alt="this is the booking page with the form to be submitted"><br>
 <img src="assets/finalProject-screenshots/final-project-4.png" width="300" alt="this is the message you receive after submitting the form successfully"><br>
+<img src="assets/images/video-screenshot.jpg" width="300" alt="this is the screenshot of the video placed on the menu page">
 
 ## Deployment <br>
 The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
@@ -59,6 +60,7 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <li>I have used <a href="https://favicon.io/">favcon</a>, in order to generate the small sized logo icon which I placed on the browser tab.</li>
   <li>I also would like to give attributes to <a href="https://getbootstrap.com/">Bootstrap</a>, for aiding me to style my cards, containers and the whole page in general easily and gracefully.</li>
   <li>Another helpful source to thank in my list is <a href="https://coolors.co/image-picker">Color picker</a>, which supported me to choose a colour palette that goes hand in hand with colourful theme I have chosen for this project. They also have a nice feature that allows you to export the group of colours you picked to your internal files.</li>
+  <li>The video placed on the menu page was obtained from <a href="https://www.youtube.com/shorts/gM46EWLTC9E" target="_blank">YouTube.</a>
   <li>Last but not least my gratitude will go to <a href="https://uk.pinterest.com/">Pintrest</a>, for providing and allowing me to download elegant pictures with high resolution which worked perfectly with the design and development of my project. The pictures I picked from Pintrest are used in the carousel slide shows in Our Menu page of this website.</li>
 </uL>
 
