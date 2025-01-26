@@ -31,11 +31,11 @@ I have also used 'Inter' and 'Mocondo' to style my fonts which I have imported t
 <img src="assets/wireframes/wireframe-04.jpg" width="300" alt="this is the design of the success page"><br>
 
 **The final project**<br>
-<img src="assets/finalProject-screenshots/final-project.png" width="300" alt="this is the home page"><br>
-<img src="assets/finalProject-screenshots/final-project-2.png" width="300" alt="this is our menu page, kids section"><br>
-<img src="assets/finalProject-screenshots/final-project-3.png" width="300" alt="this is the booking page with the form to be submitted"><br>
-<img src="assets/finalProject-screenshots/final-project-4.png" width="300" alt="this is the message you receive after submitting the form successfully"><br>
-<img src="assets/images/video-screenshot.jpg" width="300" alt="this is the screenshot of the video placed on the menu page">
+<img src="assets/finalProject-screenshots/final-project.png" width="300" alt="this is the home page"><br><p>This is the home page</p><br>
+<img src="assets/finalProject-screenshots/final-project-2.png" width="300" alt="this is our menu page, kids section"><br><p>This is our menu page, kids section</p><br>
+<img src="assets/finalProject-screenshots/final-project-3.png" width="300" alt="this is the booking page with the form to be submitted"><br><p>This is the booking page with the form to be submitted.</p><br>
+<img src="assets/finalProject-screenshots/final-project-4.png" width="300" alt="this is the message you receive after submitting the form successfully"><br><p>This is the message you receive after submitting the form successfully.</p><br>
+<img src="assets/images/video-screenshot.jpg" width="300" alt="this is the screenshot of the video which is placed on the menu page"><br><p>This is the screenshot of the video which is placed on the menu page</p><br>
 
 ## Deployment <br>
 The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
