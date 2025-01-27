@@ -65,24 +65,24 @@ I must emphasize that I took all the pictures and contents of my project from a 
 </uL>
 <h3>External sources</h3>
 <p>This JavaScript code was used from an external source in order to make sure that the Bootstrap navbar collapses when navigating within the page.<br>
- <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
+ <script><br>
+        document<br>
+            .querySelectorAll(".navbar-collapse .nav-link")<br>
+            .forEach((link) => {<br>
+                link.addEventListener("click", function (e) {<br>
+                    let section = document.querySelector(e.target.getAttribute("href"));<br>
+                    if (section) {<br>
+                        e.preventDefault(); // Prevent default anchor click behavior<br>
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;<br>
+                        window.scroll({<br>
                             top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
+                            behavior: "smooth",<br>
+                        });<br>
+                        document<br>
+                            .querySelector(".navbar-collapse")<br>
+                            .classList.remove("show"); // Collapse navbar<br>
+                    }<br>
+                });<br>
             });
     </script><br>
     The above code was obtained from the <a href="https://github.com/Code-Institute-Submissions/Portfolio-project-199/blob/main/signup-confirmation.html">github page</a> of a developer who works for Code Institute.
