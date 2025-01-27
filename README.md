@@ -114,7 +114,7 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <img src="assets/images/errors-booking-page.jpg" alt="a screenshot of the error detected in the booking page" width="300">
   <li>I have visited the <strong>booking</strong> page one more time, located where the error was thanks to the validator tool and fixed it. The error happened because two different elements were given an identical Id. I have managed to change the Id for one of the elements and now the web page is error free. See the screenshot image below.
   <img src="assets/images/booking-page-validated.jpg" alt="a screenshot image that displayes the booking page is tested and validated" width="300">
-  <li>The <strong>message</strong> page was tested through the HTML W3C validator and no errors were detected. The report of the passed test is displayed below.
+  <li>The <strong>message</strong> page was tested through the HTML W3C validator and no errors were detected. The report of the passed test is displayed below.</li>
   <img src="assets/images/message-page-validated.jpg" alt="a screenshot image that displays the message page is tested and validated" width="300">
   <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
 </ul>
