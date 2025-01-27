@@ -63,6 +63,30 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <li>The video placed on the menu page was obtained from <a href="https://www.youtube.com/shorts/gM46EWLTC9E" target="_blank">YouTube.</a>
   <li>Last but not least my gratitude will go to <a href="https://uk.pinterest.com/">Pintrest</a>, for providing and allowing me to download elegant pictures with high resolution which worked perfectly with the design and development of my project. The pictures I picked from Pintrest are used in the carousel slide shows in Our Menu page of this website.</li>
 </uL>
+<h3>External sources</h3>
+<p>This JavaScript code was used from an external source in order to make sure that the Bootstrap navbar collapses when navigating within the page.<br>
+ <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script><br>
+    The above code was obtained from the <a href="https://github.com/Code-Institute-Submissions/Portfolio-project-199/blob/main/signup-confirmation.html">github page</a> of a developer who works for Code Institute.
+    </p>
 
 ### Testing <br>
 <ul>
