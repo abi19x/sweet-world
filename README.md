@@ -90,6 +90,81 @@ I must emphasize that I took all the pictures and contents of my project from a 
     </p>
 
 ### Testing <br>
+
+<table style="width:100%">
+  <tr>
+    <th>Testing environment</th>
+    <th>Testing tool</th>
+    <th>Expected outcome</th>
+    <th>Errors reported</th>
+    <th>Further actions</th>
+  </tr>
+  <tr>
+    <td>The home page</td>
+    <td> the official W3C validator website</td>
+    <td>The page to function as intended with no bugs or defects.</td>
+    <td>No errors were detected</td>
+    <td>Not needed</td>
+  </tr>
+  <tr>
+    <td>Our-menu page</td>
+    <td> The official W3C validator website</td>
+    <td>The page to functio as designed with no issues presented.</td>
+    <td>Multiple errors were detected and rightfully reported. The report indicates the presence of illegar character in path segment, a word character instead of a digit when giving a value and not closed divs in a couple of locations were found.</td>
+    <td>All erros were located and identified according to the validator`s suggestions. The space character was deleted and file was renamed, the word character was replaced with a proper digit value and made sure all divs were closed</td?
+  </tr>
+  
+  <tr>
+    <td>The booking page</td>
+    <td> the official W3C validator website</td>
+    <td>A user to be able to provide personal details and request an order through submitting a valid form.</td>
+    <td>Two different elements were named with an identical Ids.</td>
+    <td>The reported bug was fixed by renaming the Id of one of the elements.</td>
+  </tr>
+  
+  <tr>
+    <td>The message page</td>
+    <td> the official W3C validator website</td>
+    <td>The page to display a "thank you" after a form was submitted.</td>
+    <td>No errors were detected</td>
+    <td>Not needed</td>
+  </tr>
+  
+   <tr>
+    <td>CSS cusom page</td>
+    <td>W3 Jigsaw CSS validor</td>
+    <td>Apply desired styles and layouts to selected elements, as well as enhanced readability and semantics.</td>
+    <td>Misspelt classes and Ids in different locations</td>
+    <td>All erros were located and the misspelling of selectors is corrected to match with the HTML pages.</td>
+  </tr>
+  
+  <tr>
+    <td>Internal links</td>
+    <td>Explored buttons and links in all pages.</td>
+    <td>So that users do not encounter broken links when intending to visit different pages.</td>
+    <td>No errors were detected</td>
+    <td>Not needed</td>
+  </tr>
+  
+   <tr>
+    <td>External links</td>
+    <td>Clicked all the social media links and ensure they open in separate tabs.</td>
+    <td>To enhance user experience by allowing them to access additional information and connect them to different sources.</td>
+    <td>No errors were detected</td>
+    <td>Not needed</td>
+  </tr>
+  
+   <tr>
+    <td>Responsiveness</td>
+    <td>Ensuring a consistent user experience whether accessed on a desktop computer, tablet or mobile phones</td>
+    <td>So that users have the ability to adjust and adapt automatically all media screen sizes.</td>
+    <td>No errors were detected</td>
+    <td>Not needed</td>
+  </tr>
+</table>
+
+<p>To understand the testing plan better, I have added descriptive details of the erros and defects I have encountered, and the methods I used to overcome them.</p>
+
 <ul>
   <li>I have made sure there are no broken links.</li>
   <li>I have double checked that all external links are open in a separate tab.</li>
