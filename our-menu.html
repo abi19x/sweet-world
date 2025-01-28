@@ -347,12 +347,11 @@
 
           <div class="social-links my-4">
             <a href="https://www.instagram.com" target="_blank"
-              aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                class="fa-brands fa-instagram"></i></a>
+              aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener">Instagram</a>
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
-              rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-              rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+              rel="noopener">Facebook</a>
+              <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+              rel="noopener">X</i></a>
 
           </div>
         </div>
@@ -406,24 +405,24 @@
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
 <script>
-    document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-            link.addEventListener("click", function (e) {
-                let section = document.querySelector(e.target.getAttribute("href"));
-                if (section) {
-                    e.preventDefault(); // Prevent default anchor click behavior
-                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                    window.scroll({
-                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                        behavior: "smooth",
-                    });
-                    document
-                        .querySelector(".navbar-collapse")
-                        .classList.remove("show"); // Collapse navbar
-                }
-            });
-        });
+  document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+          link.addEventListener("click", function (e) {
+              let section = document.querySelector(e.target.getAttribute("href"));
+              if (section) {
+                  e.preventDefault(); // Prevent default anchor click behavior
+                  let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                  window.scroll({
+                      top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                      behavior: "smooth",
+                  });
+                  document
+                      .querySelector(".navbar-collapse")
+                      .classList.remove("show"); // Collapse navbar
+              }
+          });
+      });
 </script>
 
   </body>
