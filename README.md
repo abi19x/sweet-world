@@ -2,7 +2,8 @@
 This is my first milestone project for the Level-5 Web Application Development program with New City College.<br>
 This is the webpage link of my project. <a href="https://abi19x.github.io/sweet-world/" target="_blank">Click here</a>.
 
-<p> This website appears to compose complete pages, responsive webpage featuring a navigation bar, carousel, a video illustrating how cakes are created, sections for cakes categorized by occasion, a footer with contact info, and operating hours.</p>
+<p> This website appears to compose complete pages, responsive webpage featuring a navigation bar, carousel, a video illustrating how cakes are created, sections for cakes categorized by occasion, a footer with contact info, and operating hours.<br>
+As this is the first milestone project with New City College, the website is rather simple, developed with HTML and CSS programming languages alone, and has minimal interactivity.</p>
 
 <ul>
   <li>Header, main, section and footer element tags are properly used in order to improve readability and search engine optimisation (SEO). Aria-label attribute is also used to enhance accessibility</li>
