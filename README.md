@@ -49,6 +49,7 @@ The deployment process is going to help you to set up an environment for your li
   <li>Go to the <strong>'Code'</strong> tab, wait few minutes and refresh</li>
   <li>On the right hand side click <strong>'github pages'</strong></li>
   <li>Click <strong>'View Deployment'</strong></li>
+  <p>My deployed website can be found <a href="https://abi19x.github.io/sweet-world/" alt="_blank">here</a>.
   
 </ol>
 
