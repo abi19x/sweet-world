@@ -172,21 +172,21 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <li>The site's navigation, layout and colour are consistent and rationale.</li>
   <li>The customer is not able to break the site by providing unvalidated inputs. For instance in the phone number filed only numbers can be entered.</li>
   <li>All forms handle eloquently empty or invalid input fields. See the screenshot below.</li>
-  <img src="assets/testing/testingForm.jpg" alt="screenshot of testing a form field" width="300">
+  <img src="assets/testing/testing-form.jpg" alt="screenshot of testing a form field" width="300">
   <li>All page elements function and display well on all media screen sizes. I have double checked the responsiveness of all pages on mobile, tablet and desktop screen sizes.</li>
   <li>All types of multimedia content used in this project function and look well on different popular browsers. I have checked the deployed on "Microsoft Edge" and "Google Chrome".</li>
   <li>I have confirmed multiple times that all four pages are linked rightfully to the custom CSS file.</li>
   <li>All HTML files in this project passes through the official W3C validator with no issues. I used this <a href="https://validator.w3.org/">Website</a> to test and validate all the codes written on HTML. See the screenshot below.</li>
-  <img src="assets/testing/validatedHTML.jpg" alt="a screenshot of HTML validated test" width="300">
+  <img src="assets/testing/validated-html.jpg" alt="a screenshot of HTML validated test" width="300">
   <li>I have used an "alt" attribute in all image elements throughout the project, which provides a brief description of all non text elements of having a text equivalent for the visually impaired users</li>
   <li>An error was found when I tested the custom CSS file of this project in the official W3 Jigsaw CSS validor. I used this <a href="https://jigsaw.w3.org/css-validator/">website</a> to test and validate all the codes writted on my custom CSS file. See the screenshot below.</li>
-  <img src="assets/testing/cssError.jpg" alt="a screenshot of an error being detected when the custom CSS file was tested" width="300">
+  <img src="assets/testing/css-error.jpg" alt="a screenshot of an error being detected when the custom CSS file was tested" width="300">
   <li> I have revisited the page, went to the indicated error detected above and fixed it to the best of my ability. I can now confirm that the custom CSS file in this project passes through the official (Jigsaw) validator with no issues. See the screenshot below.</li>
-  <img src="assets/testing/cssValidated.jpg" alt="a screenshot of CSS validated test" width="300">
+  <img src="assets/testing/css-validated.jpg" alt="a screenshot of CSS validated test" width="300">
   <li><strong>our-menu</strong> page was tested using the official W3 validator and multiple errors were detected as shown in the screenshot image below.</li>
-  <img src="assets/images/errors-ourMenu-page.jpg" alt="an image displaying the errors detected in our-menu page" width="300">
+  <img src="assets/images/errors-menu-page.jpg" alt="an image displaying the errors detected in our-menu page" width="300">
   <li><strong>our-menu</strong> page was revisited one more time and all errors were fixed. I have used the description provided by the HTML validator tool to find out precisely where the errors are located and what they are. For example, the first error detected was <em>illegal character in path segment: space is not allowed.</em> So clicked the video file which was located in my <stron>assets</strong> folder and renamed it without any spaces. The second error occured because a character that was not an digit was find when specifying how wide the video was going to be on the page. This was fixed by deleting the unacceptable characters given to the attribute. The rest of the erros occured as a result of not closed <em>divs</em> in multiple places. All of them were located according to the W3C validator and closed all <em>divs</em> which were not before. You can see in the screenshot image below that all erros in the <strong>our-menu</strong> page are now fixed.</li>
-  <img src="assets/images/ourMenu-page-validated.jpg" alt="screenshot image displays that our-menu page is tested and validated" width="300">
+  <img src="assets/images/menu-page-validated.jpg" alt="screenshot image displays that our-menu page is tested and validated" width="300">
   <li>The <strong>booking</strong> page was tested using the official W3 HTML validator and an error was detected as shown in the screenshot image below.</li>
   <img src="assets/images/errors-booking-page.jpg" alt="a screenshot of the error detected in the booking page" width="300">
   <li>I have visited the <strong>booking</strong> page one more time, located where the error was thanks to the validator tool and fixed it. The error happened because two different elements were given an identical Id. I have managed to change the Id for one of the elements and now the web page is error free. See the screenshot image below.
