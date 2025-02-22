@@ -193,7 +193,7 @@ I must emphasize that I took all the pictures and contents of my project from a 
   <img src="assets/images/booking-page-validated.jpg" alt="a screenshot image that displayes the booking page is tested and validated" width="300">
   <li>The <strong>message</strong> page was tested through the HTML W3C validator and no errors were detected. The report of the passed test is displayed below.</li>
   <img src="assets/images/message-page-validated.jpg" alt="a screenshot image that displays the message page is tested and validated" width="300">
-  <li>Every page is codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
+  <li>Every page was codded in a consistent manner to eaase readability, and there was no unneeded complexity or commented out code within the files.</li>
 </ul>
 
 
