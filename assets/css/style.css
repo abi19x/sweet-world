@@ -118,10 +118,10 @@ h2 {
 
 /*Our Menu Page */
 .slide {
-    background-image: url(../images/bgforMenu.webp);
+    background-image: url(../images/bg-for-menu.webp);
 }
 .queen {
-    background-image: url(../images/letThemEatCake.gif);
+    background-image: url(../images/let_them_eat_cake.gif);
 }
 #kids .card,
 #classics .card {
